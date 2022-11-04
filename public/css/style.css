@@ -8,6 +8,7 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+
 h2,
 h3,
 h4 {
@@ -86,6 +87,8 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -603,4 +606,36 @@ label {
   #about img {
     margin: 50px 0;
   }
+  .teamrowname{
+    flex-direction: column;
+
+    justify-content: center;
+  }
 }
+
+.globeLogo{
+  width: 3.5rem;
+  display: inline-block;
+  margin-right: 2px;
+  
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+  
+}
+.teamrow{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.teamrowname{
+  display: flex;
+  justify-content: space-around;
+}
+/* .img-responsive{
+  object-fit: cover;
+  
+} */

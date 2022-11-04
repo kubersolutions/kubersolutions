@@ -1,28 +1,26 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "GIVE YOURSELF A DIGITAL PRESENCE",
+    "paragraph": "We make and manage custom website and products that give your business powerful presence on internet, and help customer find you and explore your services easily."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Kuber Solutions is founded by a group of passionate entrepreneurs with diverse skill sets. We will use our technological expertise to give your business wings of digital presence. Our mission is to deliver a custom solution according to your needs.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Specific solution",
+      "Real-time communication",
+      "6 month customer support"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Affordable & Quality Driven",
+      "No extra charges for SEO",
+      "Scalable websites"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "VennChat",
+      "largeImage": "img/portfolio/profile-tablet.png",
+      "smallImage": "img/portfolio/profile-tablet.png"
     },
     {
       "title": "Project Title",
@@ -67,35 +65,21 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-desktop",
+      "name": "Landing Page Website",
+      "text": "We will provide you with a beautiful website with SEO, best choice to showcase your services and let customer contact you. "
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-comments",
+      "name": "Website with integrated chatbot",
+      "text": "An beautiful website with integrated chatbot, which is available 24x7 to answer your customer queries."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-server",
+      "name": "Website with Back-end",
+      "text": "We provide complete solution to business by targeting their specific needs and reduce their harship by automating their work through technology."
     }
+  
   ],
   "Testimonials": [
     {
@@ -131,33 +115,27 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/himanshu.jpg",
+      "name": "Himanshu Yadav",
+      "job": "CEO"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/dhruv.jpeg",
+      "name": "Dhruv Bhati",
+      "job": "CTO"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/aman.jpeg",
+      "name": "Aman Yadav",
+      "job": "CMO"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "IIIT Naya Raipur, Plot No. 7, near Purkhoti Muktangan, Sector 24, Atal Nagar-Nava Raipur, Chhattisgarh 493661",
+    "email": "hellokubersolutions@gmail.com",
+    "facebook": "#",
+    "twitter": "#",
+    "youtube": "#"
   },
   "Features": [
     {
