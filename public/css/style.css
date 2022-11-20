@@ -77,15 +77,20 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: transparent;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+#menu.navbar-default.navbar-color-change{
+  background-color: rgb(56, 33, 83);
+  /* opacity: 0.7; */
+  /* background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83)); */
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #fff;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -93,7 +98,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -107,7 +112,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #a27dac 0%, #d7d7e2 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -128,7 +133,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #a27dac 0%, #b576c7 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -155,7 +160,8 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 192, 203));
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -169,8 +175,9 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background-color: #5ca9fb;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -187,7 +194,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #6a2f7c;
 }
 .btn:active,
 .btn.active {
@@ -207,11 +214,14 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+#header{
+
+}
 .intro {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/hero_bg.webp) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -279,7 +289,8 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
+  background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 192, 203));
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -313,7 +324,8 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
   color: #fff;
 }
 #services .service-desc {
@@ -326,6 +338,7 @@ header .intro-text {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
+  /* background: linear-gradient(to right, rgb(128, 0, 128), rgb(255, 192, 203)); */
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -337,7 +350,8 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  background: #725386;
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -345,7 +359,7 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
@@ -371,11 +385,12 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgba(99, 114, 255, 0.8) 0%,
     rgba(92, 169, 251, 0.8) 100%
-  );
+  ); */
+  background: radial-gradient(circle at 52.1% -29.6%, rgba(56, 38, 134, 0.63) 0%, rgb(6, 20, 150) 100.2%);
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -462,12 +477,13 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  padding: 100px 0 0;
+  background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
   margin-bottom: 40px;
+  
 }
 #contact .section-title p {
   font-size: 16px;
@@ -520,10 +536,11 @@ label {
   display: block;
   width: 100%;
   padding: 6px 12px;
+  height: 4rem;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #444;
-  background-color: #fff;
+  color: rgb(179, 107, 175);
+  background-color: rgb(110, 75, 139);
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -532,24 +549,30 @@ label {
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  border-radius: 6px;
+  border: none;
 }
 #contact .form-control:focus {
   border-color: #999;
   outline: 0;
   -webkit-box-shadow: transparent;
   box-shadow: transparent;
+  border: 1px solid rgb(191, 145, 202);
 }
 .form-control::-webkit-input-placeholder {
-  color: #777;
+  color: rgb(240, 235, 243);
 }
 .form-control:-moz-placeholder {
-  color: #777;
+  /* color: #777; */
+  color: rgb(240, 235, 243);
 }
 .form-control::-moz-placeholder {
-  color: #777;
+  /* color: #777; */
+  color: rgb(240, 235, 243);
 }
 .form-control:-ms-input-placeholder {
-  color: #777;
+  /* color: #777; */
+  color: rgb(240, 235, 243);
 }
 #contact .contact-item {
   margin: 20px 0;
@@ -583,17 +606,21 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #8221a0;
   background: #fff;
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
-  padding: 30px 0;
+  /* background: #4b3761; */
+  /* background: rgb(63, 43, 95); */
+  /* padding: 10px 0; */
+  margin-top: 2rem;
+  padding-bottom: 2rem; 
 }
 #footer p {
-  color: #888;
-  font-size: 14px;
+  color: rgb(195, 180, 214);
+  font-size: 17px;
+  font-weight: 500;
 }
 #footer a {
   color: #608dfd;
@@ -613,10 +640,12 @@ label {
   }
 }
 
-.globeLogo{
+.companyLogo{
   width: 3.5rem;
   display: inline-block;
   margin-right: 2px;
+  color: #fff;
+  
   
 }
 .navdiv{
@@ -639,3 +668,6 @@ label {
   object-fit: cover;
   
 } */
+.navbar-color-change{
+  
+}

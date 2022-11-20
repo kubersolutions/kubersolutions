@@ -1,12 +1,22 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import React from "react";
+// import { useForm, ValidationError } from "@formspree/react";
+
+// https://formspree.io/f/mwkzzoob'
 
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
+  // const [state, handleSubmit] = useForm("mrgddqql");
+  // if (state.succeeded) {
+  //   return <div>Thank you for signing up!</div>;
+  // }
+
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
@@ -144,10 +154,10 @@ export const Contact = (props) => {
             </div>
           </div>
         </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>&copy; 2022 Kuber Solutions</p>
+        <div id="footer">
+          <div className="container text-center">
+            <p>&copy; 2022 Kuber Solutions</p>
+          </div>
         </div>
       </div>
     </div>
